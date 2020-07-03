@@ -2,6 +2,8 @@
 @import "base/mixins";
 @import "base/variables";
 .container {
-    max-width:950;
+    max-width: 950px;
     margin: 0 auto;
 }
+@import "blocks/promo";
+@import "blocks/header";
