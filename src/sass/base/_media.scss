@@ -1,0 +1,80 @@
+@media (max-width: 991px) {
+	.container {
+		padding: 0 30px 0 30px;
+	}
+	.advantages {
+		&__icon {
+			width:230px;
+		}
+	}
+}
+@media (max-width: 767px) {
+	.promo {
+		padding: 21px 0 21px 0;
+		min-height: 600px;
+		&__wrapper {
+			margin-top: 55px;
+		}
+		&__header {
+		font-size: 35px;
+		}
+		&__subheader {
+			font-size: 20px;
+			margin-top: 10px;
+		}
+		&__icons {
+			margin-top: 40px;
+		}
+	}
+	.button_main {
+		margin-top: 40px;
+	}
+	.advantages {
+		padding: 35px 0 35px 0;
+		min-height: 300px;
+		.__header {
+			font-size: 28px;
+		}
+		&__icon {
+			width: 165px;
+		}
+		&__icons {
+			margin-top: 35px;
+			
+		}
+		&__text {
+			margin-top: 20px;
+			font-size: 14px;
+		}
+		&__text1 {
+			margin-top: 15px;
+			font-weight: 500;
+			font-size: 13px;
+		}
+	}
+}
+@media (max-width: 575px) {
+	.visible {
+		display: none;
+	}
+	.hidden {
+		display: block;
+		font-size: 13px;
+		margin-top: 25px;
+		span {
+			font-size: 15px;
+		}
+	}
+	.promo {
+		&__wrapper {
+			margin-top: 25px;
+			align-items: center;
+		}
+		&__icons {
+			margin-top: 25px;
+		}
+	}
+	.noHover {
+		pointer-events: none;
+	}
+}
