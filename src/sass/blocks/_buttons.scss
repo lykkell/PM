@@ -8,4 +8,17 @@
     font-weight: 500;
     text-transform: uppercase;
     color: #ffffff;
+    &_main {
+        width: 300px;
+        height: 50px;
+        margin-top: 68px;
+        font-size: 16px;
+        line-height: 1.2;
+        color: #ffffff;
+        a {
+            text-decoration: underline;
+            text-decoration: uppercase;
+            color: #ffffff;
+        }
+    }
 }
