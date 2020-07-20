@@ -54,27 +54,159 @@
 	}
 }
 @media (max-width: 575px) {
+	.container {
+		padding: 15px 50px 15px 50px;
+	}
 	.visible {
 		display: none;
 	}
 	.hidden {
 		display: block;
-		font-size: 13px;
+		font-size: 14px;
 		margin-top: 25px;
 		span {
-			font-size: 15px;
+			font-size: 16px;
 		}
 	}
 	.promo {
+		&__header {
+			text-align: center;
+		}
+		&__subheader {
+			text-align: center;
+		}
 		&__wrapper {
 			margin-top: 25px;
 			align-items: center;
 		}
 		&__icons {
 			margin-top: 25px;
+			padding: 0 10px 0 10px;
+		}
+		&__icon {
+			font-size: 15px;
 		}
 	}
 	.noHover {
 		pointer-events: none;
+	}
+	.advantages {
+		&__header {
+			margin-bottom: 0;
+		}
+		&__icons {
+			flex-direction: column;
+			justify-content: center;
+			margin-top: 0;
+		}
+		&__icon {
+			display: block;
+			text-align: center;
+			width: 100%;
+			margin-top: 25px;
+		}
+		&__text {
+			font-size: 18px;
+			margin-top: 5px;
+		}
+		&__text1 {
+			font-size: 16px;
+			margin-top: 5px;
+		}
+	}
+}
+@media (max-width: 370px) {
+	.container {
+		padding: 0px 20px 10px 20px;
+	}
+	.header_visible {
+		display: none;
+	}
+	.header_hidden {
+		display: flex;
+		flex-direction: column;
+		justify-items: space-between;
+		align-content: space-between;
+	}
+	.header {
+		&__phone {
+			font-size: 18px;
+			margin-top: 10px;
+		}
+	}
+	.button {
+		width: 154px;
+		height: 35px;
+		font-size: 15px;
+	}
+	.button_main {
+		width: 125px;
+		height: 25px;
+	}
+	.visible {
+		display: none;
+	}
+	.hidden {
+		display: block;
+		font-size: 14px;
+		margin-top: 25px;
+		text-align: center;
+		span {
+			font-size: 16px;
+		}
+	}
+	.promo {
+		&__header {
+			text-align: center;
+		}
+		&__subheader {
+			text-align: center;
+		}
+		&__wrapper {
+			margin-top: 25px;
+			align-items: center;
+		}
+		&__icons {
+			margin-top: 25px;
+			padding: 0 10px 0 10px;
+		}
+		&__icon {
+			font-size: 15px;
+		}
+	}
+	.button_main {
+		margin: 20px 0 20px 0;
+		width: 200px;
+		height: 50px;
+	}
+	.icons_hidden {
+		display: none;
+	}
+	.noHover {
+		pointer-events: none;
+	}
+	.advantages {
+		&__header {
+			margin-bottom: 0;
+		}
+		&__icons {
+			flex-direction: column;
+			justify-content: center;
+			margin-top: 0;
+		}
+		&__icon {
+			display: block;
+			text-align: center;
+			width: 100%;
+			margin-top: 25px;
+		}
+		&__text {
+			font-size: 18px;
+			margin-top: 5px;
+		}
+		&__text1 {
+			font-size: 16px;
+			margin-top: 5px;
+		}
 	}
 }
