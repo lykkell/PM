@@ -61,12 +61,21 @@
 		display: none;
 	}
 	.hidden {
-		display: block;
+		display: flex;
+		width: 100%;
 		font-size: 14px;
 		margin-top: 25px;
+		align-items: center;
 		span {
 			font-size: 16px;
 		}
+	}
+	.header_flex_column {
+		display: flex;
+		flex-direction: column;
+	}
+	.header_flex_row {
+		display: none;
 	}
 	.promo {
 		&__header {
@@ -119,15 +128,7 @@
 	.container {
 		padding: 0px 20px 10px 20px;
 	}
-	.header_visible {
-		display: none;
-	}
-	.header_hidden {
-		display: flex;
-		flex-direction: column;
-		justify-items: space-between;
-		align-content: space-between;
-	}
+	
 	.header {
 		&__phone {
 			font-size: 18px;

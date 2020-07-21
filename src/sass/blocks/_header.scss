@@ -34,7 +34,8 @@
         flex-direction: column;
         align-items: flex-end;
     }
-    .header_hidden {
+    &_flex_column {
         display: none;
     }
+    
 }
