@@ -16,7 +16,7 @@
 			margin-top: 55px;
 		}
 		&__header {
-		font-size: 35px;
+			font-size: 35px;
 		}
 		&__subheader {
 			font-size: 20px;
@@ -187,9 +187,6 @@
 		pointer-events: none;
 	}
 	.advantages {
-		&__header {
-			margin-bottom: 0;
-		}
 		&__icons {
 			flex-direction: column;
 			justify-content: center;
