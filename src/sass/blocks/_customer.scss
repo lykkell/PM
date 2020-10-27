@@ -4,4 +4,10 @@
     margin: 0 auto;
     background: url(../../img/bg2.jpg) center (center/cover) no-repeat;
     color:#ffff;
+    &__descr {
+        color: #ffff;
+        font-size: 20px;
+        line-height: 1.2;
+        font-weight: 500;
+    }
 }
