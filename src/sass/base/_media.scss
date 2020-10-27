@@ -52,6 +52,12 @@
 			font-size: 13px;
 		}
 	}
+	.customer {
+		padding: 70px 0 50px 0;
+	}
+	.title_left {
+		font-size: 30px;
+	}
 }
 @media (max-width: 575px) {
 	.container {
@@ -128,7 +134,6 @@
 	.container {
 		padding: 0px 20px 10px 20px;
 	}
-	
 	.header {
 		&__phone {
 			font-size: 18px;
