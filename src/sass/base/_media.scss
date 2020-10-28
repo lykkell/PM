@@ -7,6 +7,7 @@
 			width:230px;
 		}
 	}
+	
 }
 @media (max-width: 767px) {
 	.promo {
@@ -64,7 +65,7 @@
 	.carousel {
 		&__inner {
 			img {
-				width: 95%;
+				width: 60%;
 			}
 		}
 	}
@@ -165,6 +166,13 @@
 		height: 50px;
 		font-size: 16px;
 		}	
+	}
+	.carousel {
+		&__inner {
+			img {
+				width: 95%;
+			}
+		}
 	}
 }
 @media (max-width: 370px) {
