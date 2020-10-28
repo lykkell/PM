@@ -5,8 +5,9 @@
         margin: 0 auto;
         position: relative;
     }
-    .slick-prev {
+    .slick-prev, .slick-next {
         border: none;
+        background-color: #ffffff;
         position: absolute;
         left: -66px;
         top: 50%;
@@ -15,5 +16,9 @@
             width: 31px;
             height: 50px;
         }
+    }
+    .slick-next {
+        left: auto;
+        right: -66px;
     }
 }
