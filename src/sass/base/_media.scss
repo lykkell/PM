@@ -61,6 +61,13 @@
 	.title_left {
 		font-size: 27px;
 	}
+	.carousel {
+		&__inner {
+			img {
+				width: 95%;
+			}
+		}
+	}
 }
 @media (max-width: 575px) {
 	.container {
@@ -250,4 +257,5 @@
 			font-size: 20px;
 		}
 	}
+	
 }
